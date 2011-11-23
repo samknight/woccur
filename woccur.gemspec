@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Sam Knight"]
   s.email       = ["sam@samknight.co.uk"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/samknight/woccur"
   s.summary     = %q{Find the most commons words in a string}
   s.description = %q{Find the most commons words in a string}
 
