@@ -7,7 +7,7 @@ module Woccur
     words = text.gsub(/[^a-zA-Z\'\s]/, " ").split(" ")
     freq = Hash.new(0)
 
-    common_words = YAML::load_file("lib/woccur/common.yml")
+    common_words = YAML::load_file("lib/common.yml")
 
     words.each do |word|
       word = word.downcase  
